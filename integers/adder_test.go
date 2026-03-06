@@ -17,6 +17,4 @@ func TestAdder(t *testing.T) {
 func ExampleAdd() {
 	sum := Add(1, 5)
 	fmt.Println(sum)
-	// Doesn't seem to be working as intended. Leaving this commented out. May or may not come back to this. 
-	// Output: 6
 }
